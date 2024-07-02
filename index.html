@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro e Venda de Eletrônicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cadastro e Venda de Eletrônicos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#cadastro">Cadastro de Eletrônicos</a></li>
+                    <li><a href="#banco">Banco de Dados</a></li>
+                    <li><a href="#venda">Venda de Eletrônicos Arrumados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="cadastro" class="container">
+            <h2>Cadastro de Eletrônicos</h2>
+            <form>
+                <label for="nome">Nome do Eletrônico:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao"></textarea>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+
+        <section id="banco" class="container">
+            <h2>Banco de Dados de Eletrônicos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrição</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Exemplo 1</td>
+                        <td>Descrição do Exemplo 1</td>
+                        <td>Quebrado</td>
+                    </tr>
+                    <tr>
+                        <td>Exemplo 2</td>
+                        <td>Descrição do Exemplo 2</td>
+                        <td>Quebrado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="venda" class="container">
+            <h2>Venda de Eletrônicos Arrumados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Exemplo 1</td>
+                        <td>Descrição do Exemplo 1</td>
+                        <td>R$ 100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Exemplo 2</td>
+                        <td>Descrição do Exemplo 2</td>
+                        <td>R$ 150,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cadastro e Venda de Eletrônicos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
